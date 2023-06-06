@@ -1,5 +1,7 @@
 print("Hello World") # welcome to my textbook
 
+#everything in wrong order to learn :D
+
 a = int(input("First : "))
 b = float(input("Second : "))
 

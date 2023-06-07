@@ -52,22 +52,3 @@ elif name.endswith("ed"): #check ended word
     print("Past")
 else :
     print("Undefined")
-
-# Lists Deep
-
-
-
-
-
-# Tuples
-
-
-
-# Sets
-
-
-
-
-#Dict
-
-

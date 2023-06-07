@@ -89,24 +89,4 @@ number = [1,2,3,4,5,4,4]
 n = number.count(4)
 print(n)
 
-# Tuples
-
-
-
-
-
-
-
-# Sets
-
-
-
-
-
-
-#Dict
-
-
-
-
-
+#endtext#

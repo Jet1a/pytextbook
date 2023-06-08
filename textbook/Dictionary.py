@@ -16,6 +16,18 @@ for item in colors.values: #จะได้ value
 for item in colors.items: #จะได้ key,value
 for k,v in colors.items: #จะได้ key,value
 """
+# change
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["year"] = 2020
+print(car.get("year"))
+
+# add
+car["color"] = "white"
+
 # delete
 ## del colors = delete all
 

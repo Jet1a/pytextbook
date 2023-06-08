@@ -76,3 +76,47 @@ for row in range(number):
     for col in range(number):
         print("*", end=" ") 
     print("")
+
+# 
+
+n = int(input().strip())
+if n % 2 == 0:
+    if n in range(2,5):
+        print("Not Weird")
+    elif n in range(6,21):
+        print("Weird")
+    elif n > 20:
+        print("Not Weird")
+else: 
+    print("Weird")
+
+## Leap year function
+
+def is_leap(year):
+    leap = False
+    isleap = True
+
+    if year % 4 == 0:
+        if year % 100 != 0 and year % 400 != 0:
+            return isleap
+        if year % 100 == 0 and year % 400 != 0:
+            return leap
+        if year % 400 == 0:
+            return isleap
+    else:
+        return leap
+    
+year = int(input())
+print(is_leap(year))
+
+### function print follow
+##### output show none cause there two print statements
+###### suggest  to use return instead of print inside the function definition.
+
+def order(n):
+    for number in range(1,n+1):
+        n = str(n)
+        print(number,end="")
+
+n = int(input())      
+order(n)

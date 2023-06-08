@@ -39,5 +39,36 @@ else:
 # in , not
 print("Cat" in pet) # output (True,Flase)
 
+## Set Operation
+""" 
+fruitA = {"Banana","Pineapple","Peach"}
+fruitB = {"Kiwi","Watermelon","Melon"} 
+# union
+mixFruit = fruitA.union(fruitB) #can also use update fruitA.update(fruitB)
+print(mixFruit)
+"""
+#
+fruitA = {"Banana","Pineapple","Peach","Kiwi","Watermelon"}
+fruitB = {"Kiwi","Watermelon","Melon","Banana"} 
+## เอาตัวที่มีใน B ออกจาก A สลับได้
+fruitC = fruitA.difference(fruitB) 
+print(fruitC)
+## เอาตัวที่เหมือกัน
+fruitD = fruitA.intersection(fruitB)
+print(fruitD)
+
+print(fruitA)
+fruitA.difference_update(fruitB) #เอากลับไปใส่ใน A
+print(fruitA)
+
+#subset , superset
+supset = {1,2,3,4,5,6}
+subset = {1,2,3}
+print(supset.issuperset(subset))
+print(subset.issubset(supset))
+
+# Frozen set (fix set)
+fish = frozenset(["Salmon","Koi"])
+# cant add & cant discard
 
 ##end

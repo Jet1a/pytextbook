@@ -47,7 +47,10 @@ for gear in range(len(weapon)):
     print(weapon[gear])
 
 ## add list
-
+### MIN MAX SUM
+max(number)
+min(number)
+sum(number)
 ### append add new info from last
 weapon.append("wand")
 weapon.append("spear")

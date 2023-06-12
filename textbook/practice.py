@@ -135,3 +135,24 @@ for i in range(x+1):
             if i+j+k != n:
                 array.append([i,j,k])
 print(array)
+
+#######
+
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
+result = []
+for n in list1:
+    print(n)
+    if n % 3 == 0:
+        result.append(n)
+for m in list2:
+    if m % 2 == 0:
+        result.append(m)
+print(result)
+
+
+for i in range(5,0,-1):
+    for n in range(i):
+        print("*",end=" ") 
+    
+    print(" ")
